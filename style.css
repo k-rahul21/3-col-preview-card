@@ -20,6 +20,22 @@
   font-family: "Big Shoulders Display", cursive;
 }
 
+@media (max-width: 375px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10rem;
+    font-family: "Big Shoulders Display", cursive;
+  }
+  .sedan {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}
+
 .heading {
   color: var(--very-light-gray);
   padding: 2rem 0;
