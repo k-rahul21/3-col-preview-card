@@ -27,13 +27,6 @@
   }
 }
 
-@media (max-width: 525px) {
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .heading {
   color: var(--very-light-gray);
   padding: 2rem 0;
@@ -53,18 +46,13 @@
   padding: 2rem;
   flex-basis: 14%;
 }
+
 .sedan {
   background-color: var(--Bright-orange);
   border-radius: 0.5rem 0 0 0.5rem;
 }
 
 @media (max-width: 375px) {
-  .sedan {
-    border-radius: 0.5rem 0.5rem 0 0;
-  }
-}
-
-@media (max-width: 525px) {
   .sedan {
     border-radius: 0.5rem 0.5rem 0 0;
   }
@@ -80,12 +68,6 @@
 }
 
 @media (max-width: 375px) {
-  .luxury {
-    border-radius: 0 0 0.5rem 0.5rem;
-  }
-}
-
-@media (max-width: 525px) {
   .luxury {
     border-radius: 0 0 0.5rem 0.5rem;
   }
